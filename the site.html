@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MATH Camp Global Program</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f2937; /* dark gray */
+      color: #f9fafb;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background-color: #111827;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: #f9fafb;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #3b82f6; /* blue */
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #1f2937;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .sponsors {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .sponsors img {
+      max-height: 60px;
+      filter: grayscale(50%);
+      transition: filter 0.3s, transform 0.3s;
+    }
+
+    .sponsors img:hover {
+      filter: none;
+      transform: scale(1.1);
+    }
+
+    footer {
+      background-color: #111827;
+      color: #f9fafb;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MATH Camp Global Program</h1>
+    <p>Advanced Mathematics, Mentorship & Global Impact</p>
+  </header>
+
+  <nav>
+    <a href="#modules">Modules</a>
+    <a href="#mentors">Mentors</a>
+    <a href="#sponsors">Sponsors</a>
+    <a href="#projects">Projects</a>
+    <a href="#registration">Register</a>
+  </nav>
+
+  <section id="modules">
+    <h2>Program Modules</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Pre-Calculus</h3>
+        <p>Functions, trigonometry, algebra review, combinatorics.</p>
+      </div>
+      <div class="card">
+        <h3>Linear Algebra</h3>
+        <p>Vectors, matrices, transformations, eigenvalues, applications.</p>
+      </div>
+      <div class="card">
+        <h3>Number Theory</h3>
+        <p>Primes, modular arithmetic, Diophantine equations, problem-solving.</p>
+      </div>
+      <div class="card">
+        <h3>Logic</h3>
+        <p>Deductive reasoning, truth tables, constructing arguments.</p>
+      </div>
+      <div class="card">
+        <h3>How to Prove</h3>
+        <p>Direct, contrapositive, contradiction, and induction proof techniques.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="mentors">
+    <h2>Mentors & Guest Lecturers</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>School Mentors</h3>
+        <p>All module mentors guide students through lessons and projects.</p>
+      </div>
+      <div class="card">
+        <h3>University Guest Lecturers</h3>
+        <p>Global mentors provide lectures, guidance, and certificate endorsements.</p>
+      </div>
+      <div class="card">
+        <h3>U.S. College Mentor</h3>
+        <p>Optional signature and mentorship from U.S. universities to boost credibility.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Mini Final Project</h2>
+    <p>Students apply their learning to a research-inspired math problem, with mentor guidance and global collaboration.</p>
+  </section>
+
+  <section id="sponsors">
+    <h2>Academic Sponsors</h2>
+    <div class="sponsors">
+      <img src="placeholder.png" alt="Wolfram">
+      <img src="placeholder.png" alt="Khan Academy">
+      <img src="placeholder.png" alt="Desmos">
+      <img src="placeholder.png" alt="OpenStax">
+      <img src="placeholder.png" alt="GeoGebra">
+      <img src="placeholder.png" alt="Stewart Calculus">
+      <img src="placeholder.png" alt="AoPS">
+      <img src="placeholder.png" alt="Brilliant">
+      <img src="placeholder.png" alt="MIT OCW">
+    </div>
+  </section>
+
+  <section id="registration">
+    <h2>Register Now</h2>
+    <p>Global enrollment is open. Students receive access to Google Classroom, program resources, deadlines, and mentorship.</p>
+  </section>
+
+  <footer>
+    <p>MATH Camp Global Program &copy; 2026 | Certificate signed by mentors & guest lecturers</p>
+  </footer>
+
+</body>
+</html>
